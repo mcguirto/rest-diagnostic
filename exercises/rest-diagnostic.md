@@ -8,7 +8,7 @@ In your own words, define what REST is. In your answer, be sure to cite any
 relevant sources you consulted in your search.
 
 ```md
-<!-- your answer here -->
+REST is a set of principles that described how networked resources are accessed and manipulated
 ```
 
 ### Question 2
@@ -19,7 +19,9 @@ that API? Please list the path next to the HTTP verb it would be associated
 with.
 
 ```md
-<!-- your answer here -->
+app.get('/movies/', (req, res) => {
+    res.send(movies)
+})
 ```
 
 ## Question 3
@@ -28,5 +30,5 @@ What are some of the benefits of using an architectural style like REST when
 developing an API? When might you NOT want to use the RESTful style?
 
 ```md
-<!-- your answer here -->
+It comes in handy for making multiple web pages. Not very useful for small scoped projects
 ```
